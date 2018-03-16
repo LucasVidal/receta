@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @recetum.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @recetum.description %>
+</p>
+
+<%= link_to 'Edit', edit_recetum_path(@recetum) %> |
+<%= link_to 'Back', receta_path %>
